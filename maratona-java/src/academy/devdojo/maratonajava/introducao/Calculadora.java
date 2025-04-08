@@ -12,20 +12,27 @@ public class Calculadora {
     float num2 = scanner.nextFloat();
 
 
+
     System.out.println("Qual operacao voce deseja utilizar?");
     System.out.println("a) soma");
     System.out.println("b) subtracao");
     System.out.println("c) multiplicacao");
     System.out.println("d) divisao");
+
     char operation = scanner.next().charAt(0);
 
+
     if (operation == 'a'){
+      System.out.println("Operacao escolhida: soma");
       System.out.println(num1 + num2);
     }else if (operation == 'b'){
+      System.out.println("Operacao escolhida: subtracao" );
       System.out.println(num1 - num2);
     }else if (operation == 'c') {
+      System.out.println("Operacao escolhida: multiplicacao");
       System.out.println(num1 * num2);
     }else if (operation == 'd') {
+      System.out.println("Operacao escolhida: divisao");
       System.out.println(num1 / num2);
     }
   }
