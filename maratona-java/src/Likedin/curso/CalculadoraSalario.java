@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.introducao;
+package Likedin.curso;
 
 import java.util.Scanner;
 

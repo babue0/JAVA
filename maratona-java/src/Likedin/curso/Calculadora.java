@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.introducao;
+package Likedin.curso;
 
 import java.util.Scanner;
 
@@ -14,25 +14,25 @@ public class Calculadora {
 
 
     System.out.println("Qual operacao voce deseja utilizar?");
-    System.out.println("a) soma");
-    System.out.println("b) subtracao");
-    System.out.println("c) multiplicacao");
-    System.out.println("d) divisao");
+    System.out.println("1) soma");
+    System.out.println("2) subtracao");
+    System.out.println("3) multiplicacao");
+    System.out.println("4) divisao");
 
     char operation = scanner.next().charAt(0);
 
 
-    if (operation == 'a'){
-      System.out.println("Operacao escolhida: soma");
+    if (operation == '1'){
+      System.out.println("Operacao escolhida: Soma");
       System.out.println(num1 + num2);
-    }else if (operation == 'b'){
-      System.out.println("Operacao escolhida: subtracao" );
+    }else if (operation == '2'){
+      System.out.println("Operacao escolhida: Subtracao" );
       System.out.println(num1 - num2);
-    }else if (operation == 'c') {
-      System.out.println("Operacao escolhida: multiplicacao");
+    }else if (operation == '3') {
+      System.out.println("Operacao escolhida: Multiplicacao");
       System.out.println(num1 * num2);
-    }else if (operation == 'd') {
-      System.out.println("Operacao escolhida: divisao");
+    }else if (operation == '4') {
+      System.out.println("Operacao escolhida: Divisao");
       System.out.println(num1 / num2);
     }
   }

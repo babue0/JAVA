@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.introducao;
+package Likedin.curso;
 
 public class Estudante {
   public String nome;
