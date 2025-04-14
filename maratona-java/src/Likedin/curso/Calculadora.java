@@ -24,7 +24,7 @@ public class Calculadora {
 
     if (operation == '1'){
       System.out.println("Operacao escolhida: Soma");
-      System.out.println(num1 + num2);
+      System.out.println( num1 + num2);
     }else if (operation == '2'){
       System.out.println("Operacao escolhida: Subtracao" );
       System.out.println(num1 - num2);

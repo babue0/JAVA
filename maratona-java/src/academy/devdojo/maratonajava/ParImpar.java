@@ -9,6 +9,7 @@ public class ParImpar {
     int num1 = scanner.nextInt();
 
 
+
     if((num1 & 2) == 0){
       System.out.println("Esse numero é par");
     }else {
