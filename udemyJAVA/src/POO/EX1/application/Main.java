@@ -1,4 +1,4 @@
-package POO.application;
+package POO.EX1.application;
 
 import POO.EX1.entities.Triangle;
 
