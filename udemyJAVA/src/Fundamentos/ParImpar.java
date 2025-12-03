@@ -14,5 +14,6 @@ public class ParImpar {
     } else {
       System.out.println("impar");
     }
+
   }
 }
