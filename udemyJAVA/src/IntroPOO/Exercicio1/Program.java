@@ -19,6 +19,8 @@ public class Program {
     System.out.println("Area = " + rect.Area());
     System.out.println("Perimetro = " + rect.Perimetro());
     System.out.println("Diagonal = " + rect.Diagonal());
+
+    sc.close();
   }
 
 }
