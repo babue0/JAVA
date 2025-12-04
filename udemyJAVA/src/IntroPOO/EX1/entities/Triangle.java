@@ -1,4 +1,4 @@
-package POO.EX1.entities;
+package IntroPOO.EX1.entities;
 
 public class Triangle {
 

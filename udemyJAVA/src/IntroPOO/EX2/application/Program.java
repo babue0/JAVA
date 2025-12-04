@@ -1,6 +1,6 @@
-package POO.EX2.application;
+package IntroPOO.EX2.application;
 
-import POO.EX2.entities.Product;
+import IntroPOO.EX2.entities.Product;
 
 import java.util.Locale;
 import java.util.Scanner;

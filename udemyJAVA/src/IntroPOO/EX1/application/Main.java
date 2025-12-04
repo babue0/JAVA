@@ -1,6 +1,6 @@
-package POO.EX1.application;
+package IntroPOO.EX1.application;
 
-import POO.EX1.entities.Triangle;
+import IntroPOO.EX1.entities.Triangle;
 
 import java.util.Locale;
 import java.util.Scanner;

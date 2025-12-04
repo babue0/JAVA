@@ -1,4 +1,4 @@
-package POO.EX2.entities;
+package IntroPOO.EX2.entities;
 
 public class Product {
   public String name;
