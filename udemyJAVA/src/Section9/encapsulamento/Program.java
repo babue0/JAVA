@@ -1,10 +1,9 @@
-package IntroPOO.EX2.application;
+package Section9.encapsulamento;
 
-import IntroPOO.EX2.entities.Product;
+import Section9.encapsulamento.Product;
 
 import java.util.Locale;
 import java.util.Scanner;
-
 
 public class Program {
   public static void main(String[] args) {
@@ -22,6 +21,14 @@ public class Program {
     int quantity = sc.nextInt();
 
     Product product = new Product(name, price, quantity);
+
+    product.setName("Computer");
+    System.out.println("new name: " + product.getName());
+
+    product.setPrice(13);
+    System.out.println("new price: " + product.getPrice());
+
+    System.out.println("quantity: " + product.getQuantity());
 
     System.out.println();
     System.out.println("Product data: " + product);
