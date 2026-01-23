@@ -8,6 +8,8 @@ public class AlturasEx {
     Locale.setDefault(Locale.US);
     Scanner sc = new Scanner(System.in);
 
+
+
     System.out.println("QUantas ppessoas serao? ");
     int n = sc.nextInt();
 
