@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class AlturasEx {
   public static void main(String[] args) {
+
     Locale.setDefault(Locale.US);
     Scanner sc = new Scanner(System.in);
 
@@ -41,6 +42,7 @@ public class AlturasEx {
         cont++;
       }
     }
+
 
     double percent = cont * 100.0 / n;
 
