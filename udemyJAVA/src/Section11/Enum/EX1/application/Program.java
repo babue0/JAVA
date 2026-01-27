@@ -1,9 +1,9 @@
-package Section11.Enum.application;
+package Section11.Enum.EX1.application;
 
-import Section11.Enum.entEnums.WorkerLevel;
-import Section11.Enum.entities.Department;
-import Section11.Enum.entities.HourContract;
-import Section11.Enum.entities.Worker;
+import Section11.Enum.EX1.entEnums.WorkerLevel;
+import Section11.Enum.EX1.entities.Department;
+import Section11.Enum.EX1.entities.HourContract;
+import Section11.Enum.EX1.entities.Worker;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

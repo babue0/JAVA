@@ -1,4 +1,4 @@
-package Section11.Enum.entities;
+package Section11.Enum.EX1.entities;
 
 import java.util.Date;
 

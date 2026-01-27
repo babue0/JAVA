@@ -1,6 +1,6 @@
-package Section11.Enum.entities;
+package Section11.Enum.EX1.entities;
 
-import Section11.Enum.entEnums.WorkerLevel;
+import Section11.Enum.EX1.entEnums.WorkerLevel;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -62,8 +62,6 @@ public class Worker {
   }
 
 
-
-
   public void addContract(HourContract contract){
     contracts.add(contract);
   }
@@ -86,3 +84,4 @@ public class Worker {
     return sum;
   }
 }
+

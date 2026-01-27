@@ -1,4 +1,4 @@
-package Section11.Enum.entEnums;
+package Section11.Enum.EX1.entEnums;
 
 public enum WorkerLevel {
   JUNIOR,
