@@ -17,6 +17,9 @@ public class ex1 {
       }
     }
 
+
+
+
     System.out.println("Main diagonal: ");
     for (int i = 0; i < mat.length; i++) {
       System.out.print(mat[i][i] + " ");
